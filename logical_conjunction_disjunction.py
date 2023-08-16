@@ -48,3 +48,7 @@ print(xor())
 
 """Also, at first glance, one would assume that they could use the not equal operator (!=) to achieve the same thing as the above, but apparently because of the way that Python
 chains operations that will throw unexpected results. Using a function like the above should prevent that in some cases"""
+
+'''Another note about values: 
+When passed in to something expecting a boolean integers EXCEPT for 0 will always return as True.  0 Always returns as False.  Strings, lists, tuples, sets, and dictionaries that have 
+*any* elements (so not empty) will always return as True.  When empty, it will be False'''
