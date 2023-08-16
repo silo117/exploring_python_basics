@@ -14,12 +14,12 @@ print("p or not q is", p, "or", not q, "which evaluates to", p or not q)
 print("not p or not q is",not p,"or", not q, "which evaluates to", not p or not q,"\n"*2)
 
 ''''A note, some values in Python carry an implied boolean value (true or false) without being explicitly True or False.  IF any of these values are used in a logical statement
-it will act as though it has the associated boolean value.  Additionally the intersection of some functions with bools will behave in somewhat unexpected ways if  you don't account
+it will act as though it has the associated boolean value.  Additionally, the intersection of some functions with bools will behave in somewhat unexpected ways if  you don't account
 for this behavior'''
 
 print("This is the boolean value of 0:",bool(0))
 print("This is the boolean value of 1:",bool(1), "\n"*2)
-
+ 
 print ("Conjunctions")
 '''Another way to read an "and" statement in Python is "only bother with the second value if the first is true", so if the first value is not true, it will return the first value.  
 Otherwise it'll return the 2nd value'''
