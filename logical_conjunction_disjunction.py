@@ -34,7 +34,7 @@ print(0 or 1) #this will return 1 because it ignores the "false" 0 and sees the 
 print(False or "hi") #returns "hi", again ignoring the initial false value
 print("boo" or "hi") #returns "boo", as the first value is a non-false value
 print([] or False) #here we discover that an empty set is viewed as more false than False -- probably something metaphysical going on here
-print(False or [],"\n"*2) #nah, just joking above when there is no value that can be understood as nonfalse, it simply returns the 2nd value
+print(False or [],"\n"*2) #nah, just joking above. when there is no value that can be understood as nonfalse, it simply returns the 2nd value
 
 """There doesn't seem to be an xor in Python outside of the bitwise operator ^ which won't work for a lot of things so I guess what follows is a way to implement via function"""
 
